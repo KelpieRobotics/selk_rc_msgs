@@ -3,20 +3,20 @@ syntax = "proto3";
 package kelpie_rc_msgs;
 
 message RCChannels {
-    uint32 rc1 = 1;
-    uint32 rc2 = 2;
-    uint32 rc3 = 3;
-    uint32 rc4 = 4;
-    uint32 rc5 = 5;
-    uint32 rc6 = 6;
-    uint32 rc7 = 7;
-    uint32 rc8 = 8;
-    uint32 rc9 = 9;
-    uint32 rc10 = 10;
-    uint32 rc11 = 11;
-    uint32 rc12 = 12;
-    uint32 rc13 = 13;
-    uint32 rc14 = 14;
-    uint32 rc15 = 15;
-    uint32 rc16 = 16;
+    sint32 rc1 = 1;
+    sint32 rc2 = 2;
+    sint32 rc3 = 3;
+    sint32 rc4 = 4;
+    sint32 rc5 = 5;
+    sint32 rc6 = 6;
+    sint32 rc7 = 7;
+    sint32 rc8 = 8;
+    sint32 rc9 = 9;
+    sint32 rc10 = 10;
+    sint32 rc11 = 11;
+    sint32 rc12 = 12;
+    sint32 rc13 = 13;
+    sint32 rc14 = 14;
+    sint32 rc15 = 15;
+    sint32 rc16 = 16;
 }
